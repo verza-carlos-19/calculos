@@ -16,7 +16,10 @@ function enviarFci() {
   <br>
   por mes recibirias $${promedioMes(fcimeses.value)}
   <br>
-  por tu cantidad de meses seleccionadas recibiras $${sumComple(fcimeses.value)}
+  por tu cantidad de meses seleccionadas recibiras $${sumComple(
+    fcimeses.value
+  )} <br>
+  siendo tu ganancia de $ ${sumComple(fcimeses.value) - fcinversion.value}
   <br>
 
   </p>`;
